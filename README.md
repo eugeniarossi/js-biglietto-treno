@@ -10,13 +10,13 @@ Questo richiederà un minimo di ricerca!
 
 ----------------------------------------
 
-// Chiedo all'utente i km che vuole percorrere e li salvo nella variabile userKm
+// Chiedo all'utente i km che vuole percorrere e li salvo nella variabile km
 
 // Chiedo all'utente l'età e la salvo nella variabile userAge 
 
 // Definisco la variabile priceKm = 0.21
 
-// Calcolo il prezzo del biglietto (userKm * priceKm) e lo salvo nella variabile ticketPrice 
+// Calcolo il prezzo del biglietto (km * priceKm) e lo salvo nella variabile ticketPrice 
 
 // Definisco una variabile finalPrice per il prezzo già scontato
 
@@ -24,6 +24,6 @@ Questo richiederà un minimo di ricerca!
                             ALTRIMENTI SE (userAge > 65) {finalPrice = ticketPrice - (40% di ticketPrice)}
                             ALTRIMENTI {finalPrice = ticketPrice}
 
-// Definisco la variabile finalRoundedPrice per il prezzo in forma umana 
+// Trasformo il prezzo in forma umana, lo salvo nella variabile finalRoundedPrice
 
 // Mostro finalRoundedPrice in console

@@ -21,8 +21,8 @@ Questo richiederà un minimo di ricerca!
 // Definisco una variabile finalPrice per il prezzo già scontato
 
 // Calcolo lo sconto: SE (userAge < 18) {finalPrice = ticketPrice - (20% di ticketPrice)}
-                            ALTRIMENTI SE (userAge > 65) {finalPrice = ticketPrice - (40% di ticketPrice)}
-                            ALTRIMENTI {finalPrice = ticketPrice}
+    ALTRIMENTI SE (userAge > 65) {finalPrice = ticketPrice - (40% di ticketPrice)}
+    ALTRIMENTI {finalPrice = ticketPrice}
 
 // Trasformo il prezzo in forma umana, lo salvo nella variabile finalRoundedPrice
 

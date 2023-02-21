@@ -2,11 +2,11 @@
 
 // Chiedo all'utente i km che vuole percorrere e li salvo nella variabile km
 
-const km = Number(prompt('Quanti km vuoi percorrere?'));
+const km = parseInt(prompt('Quanti km vuoi percorrere?'));
 
 // Chiedo all'utente l'età e la salvo nella variabile userAge 
 
-const userAge = Number(prompt('Inserisci la tua età'));
+const userAge = parseInt(prompt('Inserisci la tua età'));
 
 // Definisco la variabile priceKm = 0.21
 
